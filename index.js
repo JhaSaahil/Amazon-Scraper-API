@@ -12,7 +12,7 @@ const generateScraperUrl = (apiKey) =>
 app.use(express.json()) //for parsing Json data
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Flipkart Scrapper API.')
+  res.send('Welcome to Amazon Scrapper API.')
 })
 
 //Get Product Details
